@@ -3,33 +3,32 @@ import { PageIntro } from "@/components/layout/PageIntro";
 import { Button } from "@/components/ui/button";
 import { PaperClipIcon } from "@heroicons/react/solid";
 import clsx from "clsx";
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import GithubContributions from "./components/GithubContributions";
 
-export const metadata: Metadata = {
-  metadataBase: new URL("/about", process.env.BASE_URL),
-  title: "About",
-  openGraph: {
-    title: "guitton.co | About",
-    type: "profile",
-    firstName: "Louis",
-    lastName: "Guitton",
-    gender: "male",
-    username: "louis_guitton",
-  },
-};
+// export const metadata: Metadata = {
+//   metadataBase: new URL("/about", process.env.BASE_URL),
+//   title: "About",
+//   openGraph: {
+//     title: "guitton.co | About",
+//     type: "profile",
+//     firstName: "Louis",
+//     lastName: "Guitton",
+//     gender: "male",
+//     username: "louis_guitton",
+//   },
+// };
 
 const AboutPage = () => {
   return (
     <>
       <PageIntro eyebrow="About me" title="No I'm not Louis Vuitton.">
         <p className="prose">
-          I am a Software Engineer from France living in Berlin. I have{" "}
+          I am a Software Engineer from India living in US. I have{" "}
           <i>freelance</i> and <i>entrepreneurial</i> experience. I have
-          experience with Natural Language Processing in Python, and let my
-          curiosity guide me to other topics.
+          experience with Machine Learning, Gen AI, Natural Language Processing
+          in Python, and let my curiosity guide me to other topics.
           <ol>
             In general, I look for opportunities where I can:
             <li>learn and grow as an engineer</li>
@@ -76,14 +75,16 @@ const AboutPage = () => {
                   <dt className="text-sm font-medium text-gray-500">
                     Full name
                   </dt>
-                  <dd className="mt-1 text-sm text-gray-900">Louis Guitton</dd>
+                  <dd className="mt-1 text-sm text-gray-900">
+                    Chaitanya Narra
+                  </dd>
                 </div>
                 <div className="sm:col-span-1 print:col-span-1">
                   <dt className="text-sm font-medium text-gray-500">
                     Email address
                   </dt>
                   <dd className="mt-1 text-sm text-gray-900">
-                    admin@guitton.co
+                    chaitanyanarra80@gmail.com
                   </dd>
                 </div>
                 <div className="sm:col-span-1 print:col-span-1">
@@ -104,7 +105,7 @@ const AboutPage = () => {
                 </div>
                 <div className="sm:col-span-1 print:col-span-1">
                   <dt className="text-sm font-medium text-gray-500">Born in</dt>
-                  <dd className="mt-1 text-sm text-gray-900">🇫🇷 France</dd>
+                  <dd className="mt-1 text-sm text-gray-900">India</dd>
                 </div>
                 <div className="sm:col-span-1 print:col-span-1">
                   <dt className="text-sm font-medium text-gray-500">
@@ -112,10 +113,10 @@ const AboutPage = () => {
                   </dt>
                   <dd className="mt-1 text-sm text-gray-900">
                     <ul>
-                      <li>🇩🇪 Berlin, Germany (current)</li>
-                      <li>🇫🇷 Paris, France</li>
-                      <li>🇸🇬 Singapore, Singapore</li>
-                      <li>🇬🇧 Brighton, United Kingdom</li>
+                      <li>Texas, US (current)</li>
+                      <li>Paris, France</li>
+                      <li>Singapore, Singapore</li>
+                      <li>Brighton, United Kingdom</li>
                     </ul>
                   </dd>
                 </div>
@@ -175,7 +176,7 @@ const AboutPage = () => {
                             aria-hidden="true"
                           />
                           <span className="flex-1 w-0 ml-2 truncate">
-                            Resumé
+                            Resume
                           </span>
                         </div>
                         <div className="flex-shrink-0 ml-4">
