@@ -17,27 +17,28 @@ function Hero() {
               "font-extrabold tracking-tight"
             )}
           >
-            <span className="block text-gray-900">Louis&nbsp;</span>
-            <span className="inline-block text-primary">Guitton</span>
+            <span className="block text-gray-800">Chaitanya&nbsp;</span>
+            <span className="inline-block text-primary">Narra</span>
           </span>
-          <span className="block text-sm font-semibold text-gray-500">
+          <span className="block text-sm font-semibold text-gray-500 mt-3">
             {/* for SEO we need a space here */}
             <span className="hidden">&nbsp;-&nbsp;</span>
-            ex VP of Engineering at <b>OneFootball</b>
+            <b>AI / ML engineer</b>
           </span>
         </h1>
         <p className="mt-3 text-sm text-gray-500 sm:mt-5 print:mt-5">
-          I am the ex-VP of Engineering at OneFootball Labs in Berlin, Germany.
-          I am experienced with Natural Language Processing, Recommenders
-          Systems, MVP Building and the Flow blockchain. I team up with clients
-          to design and build transformative digital solutions, in particular in
-          the Sustainability space.
+          I am the ex-VP of Engineering at OneFootball Labs in India.
+          <br />I am experienced with <b>Machine Learning</b>,{" "}
+          <b>Natural Language Processing</b>, Recommenders Systems, MVP Building
+          and the <b>Flow blockchain</b>. I team up with clients to design and
+          build transformative digital solutions, in particular in the
+          Sustainability space.
         </p>
       </div>
       <button
         className={clsx(
           "relative mt-12 sm:mt-0 sm:col-span-6 sm:flex sm:items-center print:mt-0 print:col-span-6 print:flex print:items-center",
-          "rounded-full shadow-lg h-56 w-56",
+          "rounded-full shadow-xl h-56 w-56",
           "mx-auto",
           "focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
         )}

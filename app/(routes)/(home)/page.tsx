@@ -4,13 +4,13 @@ import { PostView } from "../../../lib/types";
 import FeaturedPosts from "./components/FeaturedPosts";
 import Hero from "./components/Hero";
 
-export const metadata: Metadata = {
-  metadataBase: new URL("/", process.env.BASE_URL),
-  title: "Home",
-  openGraph: {
-    title: "guitton.co | Home",
-  },
-};
+// export const metadata: Metadata = {
+//   metadataBase: new URL("/", process.env.BASE_URL),
+//   title: "Home",
+//   openGraph: {
+//     title: "guitton.co | Home",
+//   },
+// };
 
 // https://analytics.google.com/analytics/web/#/p256193208/reports/explorer?params=_u..nav%3Dmaui%26_r.explorerCard..selmet%3D%5B%22screenPageViews%22%5D%26_r.explorerCard..seldim%3D%5B%22unifiedPagePathScreen%22%5D%26_u.dateOption%3Dlast12Months%26_u.comparisonOption%3Ddisabled%26_r.explorerCard..rowsPerPage%3D25&r=all-pages-and-screens&ruid=all-pages-and-screens,life-cycle,engagement&collectionId=life-cycle
 const featuredPosts: PostView[] = [
