@@ -1,6 +1,5 @@
 import Footer from "@/components/navigation/Footer";
 import Header from "@/components/navigation/Header";
-import { Toaster } from "@/components/ui/toaster";
 import GAScript from "@/lib/ga/GAScript";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
@@ -15,15 +14,15 @@ config.autoAddCss = false;
 export const metadata: Metadata = {
   metadataBase: new URL("https://guitton.co"),
   title: {
-    default: "Louis Guitton",
-    template: "%s | Louis Guitton",
+    default: "Chaitanya Narra",
+    template: "%s | Chaitanya Narra",
   },
-  description: "Not Louis Vuitton but a developer and writer.",
+  description: "I am not just developer but a engineer",
   openGraph: {
-    title: "Louis Guitton",
+    title: "Chiatanya Narra",
     description: "Not Louis Vuitton but a developer and writer.",
     url: "https://guitton.co",
-    siteName: "Louis Guitton",
+    siteName: "Chaitanya Narra",
     locale: "en_US",
     type: "website",
   },
@@ -59,7 +58,7 @@ export default function RootLayout({
         <main className={cn("flex-grow", "px-1 sm:px-8 print:px-8")}>
           {children}
         </main>
-        <Toaster />
+        {/* <Toaster /> */}
         <Footer />
         <GAScript />
         <SocialProfileJsonLd
@@ -71,7 +70,7 @@ export default function RootLayout({
           url="https://guitton.co"
           sameAs={[
             "https://github.com/louisguitton",
-            "https://twitter.com/louis_guitton",
+            // "https://twitter.com/louis_guitton",
             "https://discordapp.com/users/217929937842208768",
             "https://stackoverflow.com/users/3823815/louis-guitton",
             "https://linkedin.com/in/louisguitton/",

@@ -3,11 +3,11 @@ import { Metadata } from "next";
 export const seoMetadata: Metadata = {
   viewport: "initial-scale=1.0, width=device-width",
   icons: [{ rel: "icon", type: "image/svg+xml", url: "/favicon.svg" }],
-  title: "guitton.co | not Louis Vuitton",
+  title: "Chaitanya.co | Chaitanya Narra",
   description:
     "I blog about python software development, machine learning, data engineering, and flow blockchain development.",
   openGraph: {
-    title: "guitton.co",
+    title: "Chaitanya.co",
     description:
       "I blog about python software development, machine learning, data engineering, and flow blockchain development.",
     type: "website",
@@ -21,7 +21,7 @@ export const seoMetadata: Metadata = {
         type: "image/jpg",
       },
     ],
-    siteName: "guitton.co",
+    siteName: "Chaitanya.co",
   },
   twitter: {
     creator: "@louis_guitton",
@@ -40,5 +40,5 @@ export const seoMetadata: Metadata = {
     "python",
     "blockchain",
   ],
-  authors: [{ name: "Louis Guitton", url: "https://guitton.co" }],
+  authors: [{ name: "Chaitanya Narra", url: "https://guitton.co" }],
 };
