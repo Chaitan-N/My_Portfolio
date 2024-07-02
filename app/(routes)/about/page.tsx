@@ -3,22 +3,23 @@ import { PageIntro } from "@/components/layout/PageIntro";
 import { Button } from "@/components/ui/button";
 import { PaperClipIcon } from "@heroicons/react/solid";
 import clsx from "clsx";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import GithubContributions from "./components/GithubContributions";
 
-// export const metadata: Metadata = {
-//   metadataBase: new URL("/about", process.env.BASE_URL),
-//   title: "About",
-//   openGraph: {
-//     title: "guitton.co | About",
-//     type: "profile",
-//     firstName: "Louis",
-//     lastName: "Guitton",
-//     gender: "male",
-//     username: "louis_guitton",
-//   },
-// };
+export const metadata: Metadata = {
+  // metadataBase: new URL("/about", process.env.NEXT_PUBLIC_BASE_URL),
+  title: "About",
+  openGraph: {
+    title: "Chaitanya | About",
+    type: "profile",
+    firstName: "Chaitanya",
+    lastName: "Narra",
+    gender: "male",
+    username: "chaitanya_narra",
+  },
+};
 
 const AboutPage = () => {
   return (

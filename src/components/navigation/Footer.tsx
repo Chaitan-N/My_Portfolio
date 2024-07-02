@@ -6,7 +6,6 @@ import {
   faGithub,
   faLinkedin,
   faStackOverflow,
-  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import clsx from "clsx";
@@ -32,26 +31,26 @@ const navigation: {
     { name: "Blog", href: "/posts" },
     { name: "Contact", href: "/contact" },
   ],
-  mentions: [
-    {
-      name: "Reddit",
-      href: "https://www.reddit.com/search.json?sort=new&q=site:guitton.co%20OR%20author:laguitte%20OR%20selftext:%22guitton.co%22",
-    },
-    {
-      name: "Twitter",
-      href: "https://twitter.com/search?q=%22guitton.co%22%20-from%3Alouis_guitton%20-%40louis_guitton%20-bag%20-purse%20-from%3Alouisguitton&src=typed_query&f=live",
-    },
-    {
-      name: "Hackernews",
-      href: "https://news.ycombinator.com/from?site=guitton.co",
-    },
-  ],
+  // mentions: [
+  //   {
+  //     name: "Reddit",
+  //     href: "https://www.reddit.com/search.json?sort=new&q=site:guitton.co%20OR%20author:laguitte%20OR%20selftext:%22guitton.co%22",
+  //   },
+  //   {
+  //     name: "Twitter",
+  //     href: "https://twitter.com/search?q=%22guitton.co%22%20-from%3Alouis_guitton%20-%40louis_guitton%20-bag%20-purse%20-from%3Alouisguitton&src=typed_query&f=live",
+  //   },
+  //   {
+  //     name: "Hackernews",
+  //     href: "https://news.ycombinator.com/from?site=guitton.co",
+  //   },
+  // ],
   social: [
-    {
-      name: "Twitter",
-      href: "https://twitter.com/louis_guitton",
-      icon: faTwitter,
-    },
+    // {
+    //   name: "Twitter",
+    //   href: "https://twitter.com/louis_guitton",
+    //   icon: faTwitter,
+    // },
     { name: "Github", href: "https://github.com/louisguitton", icon: faGithub },
     {
       name: "Stackoverflow",
@@ -82,10 +81,10 @@ const Footer: React.FC = () => {
       aria-labelledby="footer-heading"
     >
       <div
-        className={clsx("grid grid-cols-4 gap-8", "border-t border-gray-200")}
+        className={clsx("grid grid-cols-2 gap-8", "border-t border-gray-200")}
       >
         <div className={clsx("col-span-4", "text-sm text-gray-500", "pt-8")}>
-          Made in 🇩🇪 Berlin with TypeScript, NextJS, TailwindCSS, and Vercel.
+          Made with TypeScript, NextJS, TailwindCSS, and Vercel.
         </div>
         {Object.entries(navigation).map(([key, value]) => {
           return (
@@ -124,7 +123,7 @@ const Footer: React.FC = () => {
         })}
         <div className="col-span-4">
           <p className="mb-6 text-sm text-gray-500">
-            © Copyright 2022 Louis Guitton. All Rights Reserved.
+            ©Copyright 2022 Chaitanya Narra. All Rights Reserved.
           </p>
         </div>
       </div>
