@@ -48,13 +48,13 @@ export default function Process() {
             teams <b>adopt cutting-edge technologies</b> to thrive.
           </p>
           <div className="grid grid-cols-2 text-center items-center">
-            <Link href={"https://www.linkedin.com/in/louisguitton/"}>
+            <Link href={""}>
               <Button className="text-lg">
                 <Linkedin className="w-5 h-5 mr-3 -ml-1" aria-hidden="true" />
                 Connect on LinkedIn
               </Button>
             </Link>
-            <Link href={"/Louis_Guitton_Resume.pdf"} className="text-base">
+            <Link href={""} className="text-base">
               View Résumé
             </Link>
           </div>
